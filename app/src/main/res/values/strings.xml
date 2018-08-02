@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Gab</string>
+    <string name="create_account">create account</string>
+    <string name="username">Username</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="logout">Logout</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="welcome_to_gab">Welcome to Gab</string>
+    <string name="already_an_user">Already an user</string>
+    <string name="login_to_your_account">Login to your account</string>
+    <string name="e_mail1">E-mail</string>
+    <string name="password1">Password</string>
+    <string name="login">Login</string>
+    <string name="display_name">Display Name</string>
+    <string name="hello_there_i_am_using_gab">"Gab Says! Ignore Negativity</string>
+    <string name="display_picture">Display Picture</string>
+    <string name="change_status">Change Status</string>
+    <string name="settings">Settings</string>
+    <string name="status">Update Status</string>
+    <string name="update">Update</string>
+    <string name="pdisplay_name">Display Name</string>
+    <string name="selected_user_status">Selected user status</string>
+    <string name="total_friends">Total Friends</string>
+    <string name="make_a_friend_request">Make a Friend Request</string>
+    <string name="deny_friend_request">Deny Friend Request</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

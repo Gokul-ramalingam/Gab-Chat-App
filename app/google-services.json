@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "692835227878",
+    "firebase_url": "https://gabfire-6f0e4.firebaseio.com",
+    "project_id": "gabfire-6f0e4",
+    "storage_bucket": "gabfire-6f0e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692835227878:android:508b7c6b3a95b972",
+        "android_client_info": {
+          "package_name": "com.example.gokul.gab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692835227878-13755r8ua7lpei0nrinfs4h63f01a70f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gokul.gab",
+            "certificate_hash": "d4efa5d82db7ce5471e8b95d91ea1d4a79c7a80d"
+          }
+        },
+        {
+          "client_id": "692835227878-j49punig2iq3neojg12ud18jj4e10k73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSQtT07qMCJ9Dp9zsUZW-oa9beWRJPd2Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692835227878-j49punig2iq3neojg12ud18jj4e10k73.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

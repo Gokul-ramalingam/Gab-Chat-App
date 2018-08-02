@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232222"
+    tools:context=".ProfileActivity">
+
+    <ImageView
+        android:id="@+id/pimageView"
+        android:layout_width="match_parent"
+        android:layout_height="281dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:background="#FF86C7E6"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/avatar" />
+
+
+    <TextView
+        android:id="@+id/pdn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/pimageView"
+        android:layout_marginTop="15dp"
+        android:text="@string/display_name"
+        android:textSize="30sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/pds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/pdn"
+        android:layout_marginTop="15dp"
+        android:text="@string/selected_user_status"
+        android:textSize="18sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/pdtotalfrnds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="143dp"
+        android:text="@string/total_friends"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/pbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="83dp"
+        android:background="@color/colorAccent"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="@string/make_a_friend_request"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/pdenybutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:background="@color/colorAccent"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="@string/deny_friend_request"
+        android:textColor="#ffffff" />
+
+
+
+</RelativeLayout>
